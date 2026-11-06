@@ -1,6 +1,6 @@
 # PhotoCensus
 
-Projeto da disciplina de Python (UPE): um sistema em console que faz o "censo" dos objetos que aparecem em fotos. A detecção dos objetos é feita por um modelo de IA (YOLO) usado como **caixa-preta**: os grupos constroem toda a lógica em Python sobre os resultados que ela devolve.
+Projeto da disciplina Programação I em Python (UPE): um sistema em console que faz o "censo" dos objetos que aparecem em fotos. A detecção dos objetos é feita por um modelo de IA (YOLO) usado como **caixa-preta**: os grupos constroem toda a lógica em Python sobre os resultados que ela devolve.
 
 As orientações completas (requisitos, datas, critérios e entregas) estão em [`docs/`](docs/).
 
