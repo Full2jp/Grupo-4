@@ -68,7 +68,7 @@ def main():
 
 #Path 2
             elif option_variable == 2:
-                print("\nOption 2 selected, choose the folder's name and image")
+                print("\nChoose the folder's name and image")
                 folder_name = str(input("Type the folder's name: "))
 
 #Error handler                
@@ -191,7 +191,7 @@ def main():
                 print(f"Photo with the least objects: {min_photo} with {min_objects} objets")
                 percentage_class = (photos_with_class / total_p) * 100
                 print(f"The class '{class_name}' appears in {photos_with_class} of {total_p} photos ({percentage_class:.1f}%).")
-                print(f"Times the class '{class_name}' was found: {total_class_count}")
+                print(f"Times the class '{class_name}' was found: {total_class_count} time(s)")
 
 #Bar graph report
                 print("\n--- Bar graph report ---")
