@@ -43,7 +43,7 @@ def main():
 
 #Program start
         else:
-            print("\nWelcome. Choose one of these 2 options.")
+            print("\nWelcome. Choose between one of these options.")
             print("1- View available folders, and how many images.")
             print("2- Select folder, and image number.")
             print("3- View a detailed folder's report")
