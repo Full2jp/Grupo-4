@@ -356,7 +356,6 @@ def folder_report(collection, min_confidence):
 
 #Dictionary loading, grabs relevant information from other functions 
 def dictionary(collection, min_confidence):
-    """Fused Option 5: Reqs 2 -> 3 -> 4 -> 5, followed by Req 9 (report.txt)."""
     filtered_total = 0
     for _photo_path, detections in collection.items():
         for _cls, _conf in filter_detections(detections, min_confidence):
@@ -577,7 +576,6 @@ def print_folder_class_matrix(folders, classes, matrix, cols_per_block=8):
 
 #Show_classes(), returns every class. Mainly used for matrix printing
 def get_all_model_classes():
-    """Loads all 80 model classes from kit/data/classes.json and sorts via loop."""
     classes_path = os.path.join(GROUP_DIR, "..", "..", "kit", "data", "classes.json")
     with open(classes_path, encoding="utf-8") as file:
         raw_classes = json.load(file)
