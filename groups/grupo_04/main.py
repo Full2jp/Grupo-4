@@ -82,7 +82,6 @@ def read_input(
         if check_fn is not None and not check_fn(value):
             print(error_msg)
             continue
-
         return value
 
 #Folder's name input
