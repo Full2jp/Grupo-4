@@ -409,7 +409,7 @@ def dictionary(collection, min_confidence):
                 break
             print(f"{pos}. {cls_name}: {amount}")
     else:
-        print("\nReq 4 - No objects found to rank at current confidence.")
+        print("\nNo objects found to rank at current confidence.")
 
 #Reverse class search
     class_search = read_input(
